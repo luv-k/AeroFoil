@@ -34,7 +34,6 @@ models/*.pt
 models/randomforest_tuned.joblib
 
 # Generated reports and logs
-Airfoil_Cl_Cd_Report.docx
 data processing/*.docx
 data processing/*.pdf
 *.log
