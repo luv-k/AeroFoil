@@ -34,8 +34,8 @@ models/*.pt
 models/randomforest_tuned.joblib
 
 # Generated reports and logs
-report/*.docx
-report/*.pdf
+data processing/*.docx
+data processing/*.pdf
 *.log
 *.tmp
 
