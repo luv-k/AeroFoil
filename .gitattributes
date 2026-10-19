@@ -3,3 +3,5 @@ airfoil_ml_dataset.csv filter=lfs diff=lfs merge=lfs -text
 airfoil_aerodynamic_data.csv filter=lfs diff=lfs merge=lfs -text
 data/raw/json/** filter=lfs diff=lfs merge=lfs -text
 data/** filter=lfs diff=lfs merge=lfs -text
+models/*.joblib filter=lfs diff=lfs merge=lfs -text
+models/randomforest_tuned.joblib.parts/*.part filter=lfs diff=lfs merge=lfs -text

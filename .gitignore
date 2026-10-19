@@ -27,6 +27,11 @@ models/*.joblib
 models/*.pkl
 models/*.h5
 models/*.pt
+!models/histgb_tuned.joblib
+!models/lightgbm_tuned.joblib
+!models/xgboost_tuned.joblib
+# The original Random Forest model exceeds GitHub's per-file LFS limit.
+models/randomforest_tuned.joblib
 
 # Generated reports and logs
 report/*.docx
@@ -37,5 +42,3 @@ report/*.pdf
 # OS files
 .DS_Store
 Thumbs.db
-
-data/
